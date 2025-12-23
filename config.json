@@ -1,0 +1,9 @@
+{
+  "tickers": ["BTC", "ETH", "SOL", "AAPL", "TSLA", "NVDA", "GOOGL", "SPY", "QQQ", "VOO"],
+  "updateInterval": 120000,
+  "cryptoIds": {
+    "BTC": "bitcoin",
+    "ETH": "ethereum",
+    "SOL": "solana"
+  }
+}
