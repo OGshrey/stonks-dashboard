@@ -70,6 +70,8 @@ Edit `config.json` to customize:
 
 Requests are rate-limited and cached (`cache.json`). Crypto details cache ~30 min; price series cache ~1 min.
 
+If `cache.json` is missing on first run, it will be seeded from `cache.example.json` (published with the package) and created automatically.
+
 ## Requirements
 
 - Node.js (LTS recommended)

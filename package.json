@@ -1,9 +1,17 @@
 {
   "name": "stonks-dashboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cyberpunk-style real-time financial monitor for the terminal",
   "main": "src/index.js",
   "type": "module",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "config.json",
+    "assets",
+    "cache.example.json"
+  ],
   "bin": {
     "stonks-dashboard": "./src/index.js"
   },

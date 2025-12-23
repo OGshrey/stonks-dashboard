@@ -52,6 +52,17 @@ export class DataService {
           this.cache.set(key, value);
         }
         console.log(`[Cache] Loaded ${Object.keys(data).length} entries from file`);
+      } else if (existsSync('./cache.example.json')) {
+        // Seed cache from example on first run
+        const example = readFileSync('./cache.example.json', 'utf-8');
+        writeFileSync(CACHE_FILE, example);
+        const data = JSON.parse(example);
+        for (const [key, value] of Object.entries(data)) {
+          // If example entries have timestamps, refresh them
+          if (value && typeof value === 'object') value.timestamp = Date.now();
+          this.cache.set(key, value);
+        }
+        console.log('[Cache] Seeded cache.json from cache.example.json');
       }
     } catch (error) {
       console.error('[Cache] Error loading cache file:', error.message);
