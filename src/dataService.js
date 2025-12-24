@@ -266,7 +266,7 @@ export class DataService {
 
       const data = {
         symbol,
-        type: 'stock',
+        type: meta.instrumentType,
         price: currentPrice,
         change,
         change24h: change,

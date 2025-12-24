@@ -190,9 +190,8 @@ class StonksDashboard {
 
   getAssetCategory(asset) {
     if (asset.type === 'crypto') return 'crypto';
-    if (['SPY', 'QQQ', 'VOO', 'VTI', 'IWM', 'DIA', 'ARKK', 'XLF', 'XLE', 'GLD', 'SLV'].includes(asset.symbol)) {
-      return 'etf';
-    }
+    if (asset.type === 'ETF' || asset.type === 'etf') return 'etf';
+    if (asset.type === 'EQUITY' || asset.type === 'equity') return 'stock'
     return 'stock';
   }
 
